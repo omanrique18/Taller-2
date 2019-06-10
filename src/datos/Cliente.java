@@ -7,7 +7,7 @@ public class Cliente {
     private String clave;
     private int saldo;
     
-    Cliente(String nombre, String documento, String clave, int saldo) {
+    public Cliente(String nombre, String documento, String clave, int saldo) {
         this.nombre = nombre;
         this.documento = documento;
         this.clave = clave;
