@@ -1,9 +1,14 @@
 package datos;
 
-public class CuentaBancaria {
+public abstract class CuentaBancaria {
     
-    private String tipoDeCuenta;
-    private Cliente cliente;
     private int saldo;
     
+    public void setSaldo(int saldo){
+        this.saldo = saldo;
+    }
+    
+    public int getSaldo(){
+        return saldo;
+    }
 }
