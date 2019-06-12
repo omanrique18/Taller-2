@@ -31,3 +31,4 @@ public class PersonaNatural extends Cliente{
     			break;
     	}
     }
+}
