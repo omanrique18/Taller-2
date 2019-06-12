@@ -1,6 +1,6 @@
 package datos;
 
-public abstract class Cliente {
+public abstract class Cliente implements EntidadFinanciera{
     
     private String nombre;
     private String documento;
