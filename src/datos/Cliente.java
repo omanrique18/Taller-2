@@ -54,4 +54,7 @@ public abstract class Cliente implements EntidadFinanciera{
     public void setTipoCuenta(CuentaBancaria tipoCuenta){
         this.tipoCuenta = tipoCuenta;
     }
+    
+    public Cliente() {
+    }
 }
